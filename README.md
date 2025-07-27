@@ -2,7 +2,7 @@
 
 A fully interactive **3x3 Rubik’s Cube solver** built using **Python**, powered by **Kociemba’s Two-Phase Algorithm**, and presented with a user-friendly **Tkinter GUI**. Designed for **AeroHack 2025**, this project emphasizes accuracy, error handling, and a visual experience for cube solving.
 
-
+---
 
 ## 📌 Features
 
@@ -14,13 +14,15 @@ A fully interactive **3x3 Rubik’s Cube solver** built using **Python**, powere
 - ✅ Detects **already solved cube** and skips solving
 - ❌ Provides descriptive error messages for malformed input
 
+---
 
 ## 🖼️ GUI Preview
 
 <img width="680" height="761" alt="image" src="https://github.com/user-attachments/assets/4391b851-8568-493d-acf7-1dfde4c0bb75" />
 
 
-Scramble Cube with Solution
+
+### Scramble Cube with Solution
 
 <img width="679" height="763" alt="image" src="https://github.com/user-attachments/assets/83b666af-cf1b-41e9-94a9-67515e51fa80" />
 
