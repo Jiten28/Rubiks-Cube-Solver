@@ -1,0 +1,55 @@
+Solved Cube Example:
+
+Enter face 'U':
+  Row 1: W W W
+  Row 2: W W W
+  Row 3: W W W
+Enter face 'R':
+  Row 1: R R R
+  Row 2: R R R
+  Row 3: R R R
+Enter face 'F':
+  Row 1: G G G
+  Row 2: G G G
+  Row 3: G G G
+Enter face 'D':
+  Row 1: Y Y Y
+  Row 2: Y Y Y
+  Row 3: Y Y Y
+Enter face 'L':
+  Row 1: O O O
+  Row 2: O O O
+  Row 3: O O O
+Enter face 'B':
+  Row 1: B B B
+  Row 2: B B B
+  Row 3: B B B
+
+
+
+Unsolved/Scrambled Cube Example:
+
+Enter face 'U':
+  Row 1: Y O Y
+  Row 2: W W O
+  Row 3: W R Y
+Enter face 'R':
+  Row 1: B Y R
+  Row 2: G G G
+  Row 3: O R R
+Enter face 'F':
+  Row 1: R W O
+  Row 2: B O R
+  Row 3: O Y Y
+Enter face 'D':
+  Row 1: B B G
+  Row 2: G Y G
+  Row 3: G Y B
+Enter face 'L':
+  Row 1: R B G
+  Row 2: O B O
+  Row 3: W Y W
+Enter face 'B':
+  Row 1: G G B
+  Row 2: W R W
+  Row 3: W R O
