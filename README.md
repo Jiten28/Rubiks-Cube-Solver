@@ -79,5 +79,74 @@ def move_U(self):
     self.state['L'][0] = B
     self.state['F'][0] = L
 ```
+### 🎯 Solving Algorithm
 
+* Uses the [Kociemba library](https://pypi.org/project/kociemba/)
+* Converts the cube into a 54-character facelet string
+* Uses the center stickers to assign correct face labels
+
+---
+
+## 🧪 Input & Validation
+
+* Every color must appear exactly **9 times**
+* The GUI prevents over-input or invalid structure
+* If cube is already solved, it will show: `Cube is already solved ✅`
+
+---
+
+## 📂 File Structure
+
+```
+rubiks-cube-solver/
+│
+├── RubiksCube_Solver.py   # Main GUI application
+├── README.md              # This file
+└── sample_scrambles.txt   # Demo inputs
+```
+
+---
+
+## 💡 Sample Scramble
+
+Input this color configuration into the GUI:
+
+```
+For face 'U':
+  Row 1: Y O Y
+  Row 2: W W O
+  Row 3: W R Y
+For face 'R':
+  Row 1: B Y R
+  Row 2: G G G
+  Row 3: O R R
+For face 'F':
+  Row 1: R W O
+  Row 2: B O R
+  Row 3: O Y Y
+For face 'D':
+  Row 1: B B G
+  Row 2: G Y G
+  Row 3: G Y B
+For face 'L':
+  Row 1: R B G
+  Row 2: O B O
+  Row 3: W Y W
+For face 'B':
+  Row 1: G G B
+  Row 2: W R W
+  Row 3: W R O
+
+```
+
+---
+
+## 👨‍💻 Author
+
+**Jiten Kumar**
+📧 work.jiten282003@gmail.com
+
+🌐 [Portfolio( jitenkumarportfolio.netlify.app ) / LinkedIn ( linkedin.com/in/jiten-kumar-85a03217a )]
+
+---
 
