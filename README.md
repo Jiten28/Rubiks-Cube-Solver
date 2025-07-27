@@ -18,9 +18,13 @@ A fully interactive **3x3 Rubik’s Cube solver** built using **Python**, powere
 
 ## 🖼️ GUI Preview
 
+### GUI Interface
+
 <img width="680" height="761" alt="image" src="https://github.com/user-attachments/assets/4391b851-8568-493d-acf7-1dfde4c0bb75" />
 
+### Already Solved Cube
 
+<img width="667" height="762" alt="image" src="https://github.com/user-attachments/assets/86a68a89-24ef-4a5e-911d-da52aa080f86" />
 
 ### Scramble Cube with Solution
 
@@ -34,7 +38,7 @@ A fully interactive **3x3 Rubik’s Cube solver** built using **Python**, powere
 ### 1. Clone the Repo
 
 ```bash
-git clone https://github.com/your-username/rubiks-cube-solver.git
+git clone https://github.com/Jiten28/Rubiks-Cube-Solver.git
 cd rubiks-cube-solver
 ````
 
@@ -49,7 +53,7 @@ pip install kociemba
 ### 3. Run the GUI App
 
 ```bash
-python RubiksCube_Solver.py
+python Rubiks_Cube_Solver.py
 ```
 
 > 🖱️ Click each cube face to cycle through sticker colors and then click “Solve Cube”.
@@ -106,7 +110,7 @@ def move_U(self):
 ```
 rubiks-cube-solver/
 │
-├── RubiksCube_Solver.py   # Main GUI application
+├── Rubiks_Cube_Solver.py   # Main GUI application
 ├── README.md              # This file
 └── sample_scrambles.txt   # Demo inputs
 ```
