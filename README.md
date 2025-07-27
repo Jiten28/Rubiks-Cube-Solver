@@ -21,6 +21,7 @@ A fully interactive **3x3 Rubik’s Cube solver** built using **Python**, powere
 
 
 Scramble Cube with Solution
+
 <img width="679" height="763" alt="image" src="https://github.com/user-attachments/assets/83b666af-cf1b-41e9-94a9-67515e51fa80" />
 
 
