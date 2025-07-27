@@ -50,4 +50,34 @@ python RubiksCube_Solver.py
 
 ---
 
+## 🎮 How It Works
+
+### 🧠 Cube Representation
+
+The cube is represented as a Python dictionary:
+
+```python
+{
+  'U': [['W', 'W', 'W'], ['W', 'W', 'W'], ['W', 'W', 'W']],
+  'R': [['R', 'R', 'R'], ['R', 'R', 'R'], ['R', 'R', 'R']],
+  ...
+}
+```
+
+Each face contains a 3x3 matrix of color strings (`W`, `Y`, `G`, `B`, `O`, `R`).
+
+### 🔁 Move Simulation
+
+Each legal cube move is implemented (including prime and double variants). For example:
+
+```python
+def move_U(self):
+    self.rotate_face('U')
+    F, R, B, L = self.state['F'][0][:], self.state['R'][0][:], self.state['B'][0][:], self.state['L'][0][:]
+    self.state['R'][0] = F
+    self.state['B'][0] = R
+    self.state['L'][0] = B
+    self.state['F'][0] = L
+```
+
 
