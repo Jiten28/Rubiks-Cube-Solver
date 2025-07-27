@@ -23,4 +23,31 @@ A fully interactive **3x3 Rubik’s Cube solver** built using **Python**, powere
 
 ---
 
+## 🚀 How to Run
+
+### 1. Clone the Repo
+
+```bash
+git clone https://github.com/your-username/rubiks-cube-solver.git
+cd rubiks-cube-solver
+````
+
+### 2. Install Requirements
+
+Make sure Python is installed (Python 3.7+), then:
+
+```bash
+pip install kociemba
+```
+
+### 3. Run the GUI App
+
+```bash
+python RubiksCube_Solver.py
+```
+
+> 🖱️ Click each cube face to cycle through sticker colors and then click “Solve Cube”.
+
+---
+
 
